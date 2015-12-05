@@ -14,18 +14,26 @@
     </head>
     <body>
 
-<section id="slide1">
+<div id="button-forward" class="forward"> ▶ </div>
+
+<div id="button-back" class="back"> ◀ </div>
+
+<div class="showallContainer">
+    <div id="showall" class="showall"> Show as single page. </div>
+</div>
+
+<section class="fullscreen" id="slide1">
   <h1>Get Git.</h1>
   <h2>An introduction to Git.</h2>
 </section>
 
 
-<section id="slide2">
+<section class="fullscreen" id="slide2">
   <h2>Firstly.</h2>
   <p>Thank you for coming.</p>
 </section>
 
-<section id="slide3">
+<section class="fullscreen" id="slide3">
   <h2>Secondly.</h2>
 <p>The plan.</p>
 
@@ -35,7 +43,7 @@
 </ol>
 </section>
 
-<section id="slide4">
+<section class="fullscreen" id="slide4">
   <h2>Thirdly.</h2>
   <p>Some quick rules.</p>
   <ol>
@@ -47,7 +55,7 @@
   </ol>
 </section>
 
-<section id="slide5">
+<section class="fullscreen" id="slide5">
   <h2>Fourthly.</h2>
   <p>An admission. </p>
   <p>I am nervous about doing this.</p>
@@ -57,18 +65,18 @@
 
 </section>
 
-<section id="slide6">
-<img src="img/lesson1-gitgraph.png">
+<section class="fullscreen" id="slide6">
+<img class ="tall" src="img/lesson1-gitgraph.png">
 </section>
 
-<section id="slide7">
+<section class="fullscreen" id="slide7">
   <h2>1. What is Git?</h2>
   <p>Git is a <strong>source control system.</strong></p>
   <p>It allows to <strong>store versions of our work safely, securely.</strong></p>
   <p>It allows to <strong>save work locally - and remotely.</strong></p>
 </section>
 
-<section id="slide8">
+<section class="fullscreen" id="slide8">
   <h2>2. What is source control? </h2>
   <p>Also can be known as <strong>version control.</strong></p>
   <p class="quote">The management of changes to documents, computer programs, large websites, and other collections of information.<br />
@@ -76,12 +84,12 @@
   <p class="right">Wikipedia</p>
 </section>
 
-<section id="slide9">
+<section class="fullscreen" id="slide9">
   <h2>3. What are versions? </h2>
-<img src="img/lesson1-versions.png">
+<img class="wide" src="img/lesson1-versions.png">
 </section>
 
-<section id="slide10">
+<section class="fullscreen" id="slide10">
   <h2>4. What are 'local' and 'remote'? </h2>
 <p><strong>Local</strong></p>
 <p>The machine you work on. Usually your laptop.</p>
@@ -92,7 +100,7 @@
 <p>Another computer. A server. On another network. In the cloud. Somewhere else.</p>
 </section>
 
-<section id="slide11">
+<section class="fullscreen" id="slide11">
   <h2>5. How does Git work?</h2>
 <ul>
   <li>Majority of work is done locally.</li>
@@ -105,7 +113,7 @@
 </ul>
 </section>
 
-<section id="slide12">
+<section class="fullscreen" id="slide12">
   <h2>6. Why use Git?</h2>
   <p>Why not?</p>
 <ul>
@@ -118,15 +126,15 @@
 </ul>
 </section>
 
-<section id="slide13">
+<section class="fullscreen" id="slide13">
   <h2>Get busy!</h2>
 </section>
 
-<section id="slide14">
+<section class="fullscreen" id="slide14">
   <h2>Form pairs.</h2>
 </section>
 
-<section id="slide15">
+<section class="fullscreen" id="slide15">
   <h2><strong>Zero.</strong> We are typing commands.</h2>
 
 <p>We are going to use a <stron>shell</strong> or <strong>terminal</strong> window for this session.</p>
@@ -135,7 +143,7 @@
 </section>
 
 
-<section id="slide16">
+<section class="fullscreen" id="slide16">
   <h2><strong>One.</strong> Create a folder.</h2>
 
   <p>To start with we need a folder.</p>
@@ -143,7 +151,7 @@
       <p>So, create a folder. (And create the folder somewhere you know where it is.)</p>
 </section>
 
-<section id="slide17">
+<section class="fullscreen" id="slide17">
   <h2><strong>Two.</strong> Create a file.</h2>
 
   <p>In the folder, let’s create a file.</p>
@@ -153,7 +161,7 @@
   <p>(Replace <em>your_name</em> with your name.)</p>
 </section>
 
-<section class="code" id="slide18">
+<section class="fullscreen" class="code" id="slide18">
   <pre><code>
     &lt;html&gt;
     &lt;body&gt;
@@ -163,7 +171,7 @@
   </code></pre>
 </section>
 
-<section id="slide19">
+<section class="fullscreen" id="slide19">
   <h2><strong>Three.</strong> Let’s get ready to Git!</h2>
 
   <p>Open a shell window.</p>
@@ -171,7 +179,7 @@
 </section>
 
 
-<section id="slide20">
+<section class="fullscreen" id="slide20">
   <h2><strong>Four.</strong> Set up Git.</h2>
 
   <p>We have to “log in” or “sign in” to Git so it knows who
@@ -183,7 +191,7 @@ you are.</p>
   <p><code>git config --global user.email ‘si@studioofthings.com’</code></p>
 </section>
 
-<section id="slide21">
+<section class="fullscreen" id="slide21">
   <h2><strong>Five.</strong> Create a repository.</h2>
 
   <p>A repository is a directory Git uses to version control
@@ -195,7 +203,7 @@ your files. This isn’t for us. It is for Git.</p>
   <p>This creates a folder called .git</p>
 </section>
 
-<section id="slide22">
+<section class="fullscreen" id="slide22">
   <h2><strong>Six.</strong> Check where Git is at.</h2>
 
   <p>At any point we can get Git to tell us how it’s doing.</p>
@@ -204,7 +212,7 @@ your files. This isn’t for us. It is for Git.</p>
   <p><code>git status</code></p>
 </section>
 
-<section id="slide23">
+<section class="fullscreen" id="slide23">
   <h2><strong>Seven.</strong> Add file to Git.</h2>
 
   <p>We need to tell Git we need it to track a file.</p>
@@ -213,7 +221,7 @@ your files. This isn’t for us. It is for Git.</p>
   <p><code>git add <em>your_name</em>.html</code></p>
 </section>
 
-<section id="slide24">
+<section class="fullscreen" id="slide24">
   <h2><strong>Eight.</strong> Check where Git is at.</h2>
 
   <p>Let’s check where Git is at.</p>
@@ -222,7 +230,7 @@ your files. This isn’t for us. It is for Git.</p>
   <p><code>git status</code></p>
 </section>
 
-<section id="slide25">
+<section class="fullscreen" id="slide25">
   <h2><strong>Nine.</strong> Create another file.</h2>
 
   <p>Let’s check where Git is at.</p>
@@ -233,26 +241,26 @@ your files. This isn’t for us. It is for Git.</p>
 
 </section>
 
-<section id="slide26">
+<section class="fullscreen" id="slide26">
   <h2><strong>Ten.</strong> Add the second file to Git.</h2>
 
   <p>Do you remember how to do that?</p>
 </section>
 
-<section id="slide27">
+<section class="fullscreen" id="slide27">
   <h2><strong>Ten.</strong> Add the second file to Git.</h2>
 
   <p>Type:</p>
   <p><code>git add <em>another_name</em>.html</code></p>
 </section>
 
-<section id="slide28">
+<section class="fullscreen" id="slide28">
   <h2><strong>Eleven.</strong> Check where Git is at.</h2>
 
   <p>Let’s check where Git is at.</p>
 </section>
 
-<section id="slide29">
+<section class="fullscreen" id="slide29">
   <h2><strong>Eleven.</strong> Check where Git is at.</h2>
 
   <p>Let’s check where Git is at.</p>
@@ -261,7 +269,7 @@ your files. This isn’t for us. It is for Git.</p>
   <p><code>git status</code></p>
 </section>
 
-<section id="slide30">
+<section class="fullscreen" id="slide30">
   <h2><strong>Twelve.</strong> Committing to Git.</h2>
 
   <p>Let’s commit our files to Git.</p>
@@ -274,7 +282,7 @@ your files. This isn’t for us. It is for Git.</p>
   <p><strong>Pro tip: Make your commit message useful!</strong></p>
 </section>
 
-<section id="slide31">
+<section class="fullscreen" id="slide31">
   <h2><strong>Thirteen.</strong> Ch-ch-changes.</h2>
 
   <p>Make some changes to your two files.</p>
@@ -284,7 +292,7 @@ your files. This isn’t for us. It is for Git.</p>
   <p>Do not commit the files.</p>
 </section>
 
-<section id="slide32">
+<section class="fullscreen" id="slide32">
   <h2><strong>Fourteen.</strong> C’est la difference.</h2>
 
   <p>Git can tell us what the differences between commits
@@ -295,7 +303,7 @@ are.</p>
   <p><code>git diff</code></p>
 </section>
 
-<section id="slide33">
+<section class="fullscreen" id="slide33">
   <p><code>git add <em>filename</em>.html</code></p>
 
   <p><code>git status</code></p>
@@ -304,7 +312,7 @@ are.</p>
 
 </section>
 
-<section id="slide34">
+<section class="fullscreen" id="slide34">
   <h2><strong>Fifteen.</strong> MORE files.</h2>
 
   <p>Create another HTML file.</p>
@@ -320,7 +328,7 @@ are.</p>
   <p>DIFF.</p>
 </section>
 
-<section id="slide35">
+<section class="fullscreen" id="slide35">
   <p><code>git add <em>something</em>.html</code></p>
 
   <p><code>git diff</code></p>
@@ -331,7 +339,7 @@ are.</p>
 
 </section>
 
-<section id="slide36">
+<section class="fullscreen" id="slide36">
   <h2><strong>Sixteen.</strong> Adding in more files.</h2>
 
   <p>If you want to add lots of files there is a shortcut.</p>
@@ -342,7 +350,7 @@ are.</p>
   <p><code>git add .</code></p>
 </section>
 
-<section id="slide37">
+<section class="fullscreen" id="slide37">
   <h2><strong>Seventeen.</strong> Viewing the log.</h2>
 
   <p>Everything you commit into Git is logged.</p>
@@ -352,19 +360,19 @@ are.</p>
   <p><code>git log</code></p>
 </section>
 
-<section id="slide38">
+<section class="fullscreen" id="slide38">
   <h1>Next time.</h1>
 
   <p>We will look at pushing, pulling, fetching, branches and merges.</p>
 </section>
 
-<section id="slide39">
+<section class="fullscreen" id="slide39">
   <h1>Any questions, feedback, cake?</h1>
 
   <p>Email simon.wilson@digital.hmrc.gov.uk</p>
 </section>
 
-<section id="slide40">
+<section class="fullscreen" id="slide40">
   <h1>Reference and sources.</h1>
 
 <ol>
@@ -376,10 +384,7 @@ are.</p>
 </ol>
 </section>
 
-
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 
         <script src="js/main.js"></script>
     </body>
