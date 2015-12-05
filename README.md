@@ -12,3 +12,5 @@ The lessions are also about getting the particpants/students hands on.
 Each lesson the particpants learn some things, try those things in the lesson – and then are encouraged to go away and use that knowledge while they work.
 
 Hopefully we will keep running these lessons as part of a continual improvement programme, to help instill knowledge and/or confidence.
+
+If you have any questions you can email me at simon.wilson@digital.hmrc.gov.uk or get me on Twitter, where I am @ErmLikeYeah
